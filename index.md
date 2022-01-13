@@ -3,7 +3,7 @@ Hello! If you're a `coder` or just a *stranger*, you've probably want to **grade
 <br/>
 <br/>
 
-[Lab1 Report](./lab1-report.md)
+Lab 1: [Lab1 Report](./lab1-report.md)
 
 
 
