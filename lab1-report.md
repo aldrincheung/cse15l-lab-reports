@@ -11,7 +11,7 @@ And here's a picture, just because.
 ---
 And if want to hack, just do this
 ```javascript
-document.getElementsByTagName("body")[0].background = "red";
+document.getElementsByTagName("body")[0].style.background = "red";
 ```
 
 ---
