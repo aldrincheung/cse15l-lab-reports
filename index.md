@@ -1,16 +1,15 @@
-# CSE 15
+## Aldrin Cheung's CSE 15L Lab Page  :D
+Hello! If you're a `coder` or just a *stranger*, you've probably want to **grade** my work. And lucky for you, all the links of them are below.
 
+[Lab1 Report](./lab1-report.md)
 
-[Lab1 relative Link](./lab1-report.md)
+And here's a picture, just because.
+![spiderman image](https://speedstor.net/src/square/spiderMan.jpg)
 
+And if want to hack, just do this
+> document.getElementsByTagName("body")[0].background = "red";
 
-
-[Lab1 direct Link](https://aldrincheung.github.io/cse15l-lab-reports/lab1-report.html)
-
-
-
-
-
+And here's a 
 
 <br/>
 <br/>
