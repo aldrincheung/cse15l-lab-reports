@@ -5,6 +5,7 @@ Hello! If you're a `coder` or just a *stranger*, you've probably want to **grade
 
 ---
 And here's a picture, just because.
+
 ![spiderman image](https://speedstor.net/src/square/spiderMan.jpg)
 
 ---
@@ -19,6 +20,7 @@ And here's a list of things i love
 * coding
 * drawing
 * daydreaming
+
 and if in order:
 1. daydreaming
 2. typing
@@ -27,9 +29,14 @@ and if in order:
 ---
 
 Best quote:
-> ""-Sun Zu
+> "...  " - Sun Zu
 
 
 
-### Cheatsheet
-**Part 1:** 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+###### Made by [speedstor](https://speedstor.net)

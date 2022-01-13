@@ -9,11 +9,11 @@ And here's a picture, just because.
 And if want to hack, just do this
 > document.getElementsByTagName("body")[0].background = "red";
 
-And here's a 
 
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
+
 ###### Made by [speedstor](https://speedstor.net)
