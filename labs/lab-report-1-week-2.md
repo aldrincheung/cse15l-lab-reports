@@ -70,6 +70,7 @@ scp ./hello.txt cse15lwi22ank@ieng6.ucsd.edu:~/
 
 ### 5: Setting an SSH Key
 - on windows, do this:
+
 ```powershell
 ssh-keygen
 # follow the prompt that follows, basically just keep pressing enter until it stops outputing stuff
@@ -78,6 +79,7 @@ Start-Service ssh-agent
 Get-Service ssh-agent
 ssh-add ~\.ssh\id_ed25519
 ```
+
 - move the public version of the key to the school server
 - to do this, go to the folder fir your id_ed25519, then shift+right click in the exploer(file folder), click open in terminal. Then, do `scp ./id_ed25519.pub cse15lxxxxxxx@ien6.ucsd.edu:~/.ssh/`
 <img src="../assets/src/lab1/sshKeygen.png" width="300"/>
@@ -91,5 +93,6 @@ ssh-add ~\.ssh\id_ed25519
 ```bash
 ssh cse15lxxxxxxx@ieng6.ucsd.edu "ls; cat .bash_profile | grep ls;"
 ```
+
 <img src="../assets/src/lab1/sshWithCommand.jpg" width="300"/>
 > eyyyyyy!
