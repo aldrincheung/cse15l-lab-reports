@@ -95,4 +95,26 @@ ssh cse15lxxxxxxx@ieng6.ucsd.edu "ls; cat .bash_profile | grep ls;"
 ```
 
 <img src="../assets/src/lab1/sshWithCommand.jpg" width="300"/>
+
+- to upload and run a java file, we could make a bash script if it is a big project
+  - in the bash script, i ucse `cse15` instead of `cs15lwi22ank as the hostname cuz i set up with the config shown after the bash file
+```bash
+#!/bin/bash
+scp ./WhereAmI.java cse15:~/
+ssh cse15 "javac ./WhereAmI.java; java WhereAmI"
+```
+```
+Host cse15
+  HostName ieng6.ucsd.edu
+  User cs15lwi22ank
+  Port 22
+```
+- if the bash script file is saved as `upload-remote-run.sh`, then
+  - uploading and running with how many commands you only takes `5` keystrokes
+    - `.` -> `/` -> `u` -> `tab` -> `enter`
+  - and if you are re-running this type of stuff, it will only take `2` keystrokes
+    - `↑` -> `enter`
+  
+<img src="../assets/src/lab1/upload-and-run-script-demonstration.jpg" width="600"/>
+
 > eyyyyyy!
