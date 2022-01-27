@@ -7,10 +7,10 @@
 ## Code Change 1
 - ![Code Change 1 screenshot](../assets/src/lab2/codeChangeDiff1.jpg)
 - Tests Files that this fix
-  - https://github.com/aldrincheung/markdown-parse/blob/main/test-file2.md
-  - https://github.com/aldrincheung/markdown-parse/blob/main/test-file3.md
-  - https://github.com/aldrincheung/markdown-parse/blob/main/test-file4.md
-  - https://github.com/aldrincheung/markdown-parse/blob/main/test-file5.md
+  - [https://github.com/aldrincheung/markdown-parse/blob/main/test-file2.md](https://github.com/aldrincheung/markdown-parse/blob/main/test-file2.md)
+  - [https://github.com/aldrincheung/markdown-parse/blob/main/test-file3.md](https://github.com/aldrincheung/markdown-parse/blob/main/test-file3.md)
+  - [https://github.com/aldrincheung/markdown-parse/blob/main/test-file4.md](https://github.com/aldrincheung/markdown-parse/blob/main/test-file4.md)
+  - [https://github.com/aldrincheung/markdown-parse/blob/main/test-file5.md](https://github.com/aldrincheung/markdown-parse/blob/main/test-file5.md)
 - Symptom
 
 ```bash
@@ -84,8 +84,8 @@ Tests run: 9,  Failures: 8
 ## Code Change 2
 - ![Code Change 1 screenshot](../assets/src/lab2/codeChangeDiff2.jpg)
 - Tests Files that this fix
-  - https://github.com/aldrincheung/markdown-parse/blob/main/test-file.md
-  - https://github.com/aldrincheung/markdown-parse/blob/main/test-file6.md
+  - [https://github.com/aldrincheung/markdown-parse/blob/main/test-file.md](https://github.com/aldrincheung/markdown-parse/blob/main/test-file.md)
+  - [https://github.com/aldrincheung/markdown-parse/blob/main/test-file6.md](https://github.com/aldrincheung/markdown-parse/blob/main/test-file6.md)
 - Symptom
 
 ```bash
@@ -120,7 +120,7 @@ Tests run: 9,  Failures: 2
 ## Code Change 3
 - ![Code Change 1 screenshot](../assets/src/lab2/codeChangeDiff3.jpg)
 - Tests Files that this fix
-  - https://github.com/aldrincheung/markdown-parse/blob/main/error-inducing.md
+  - [https://github.com/aldrincheung/markdown-parse/blob/main/error-inducing.md](https://github.com/aldrincheung/markdown-parse/blob/main/error-inducing.md)
 - Symptom
 
 ```bash
