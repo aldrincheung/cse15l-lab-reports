@@ -12,6 +12,7 @@
   - https://github.com/aldrincheung/markdown-parse/blob/main/test-file4.md
   - https://github.com/aldrincheung/markdown-parse/blob/main/test-file5.md
 - Symptom
+
 ```bash
 PS C:\Users\aldri\Desktop\classes\CSE_15L\github\markdown-parse> javac -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" MarkdownParseTest.java
 PS C:\Users\aldri\Desktop\classes\CSE_15L\github\markdown-parse> java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore MarkdownParseTest
@@ -72,6 +73,7 @@ java.lang.OutOfMemoryError: Java heap space
 FAILURES!!!
 Tests run: 9,  Failures: 8
 ```
+
 - relationship between the bug, the symptom, and the failure-inducing input
   - The bug is that the code didn't check if the brackets are found, the symptom is that because the bug won't skip unfound brackets, it causes markdown.substring(-1, -1), which is IndexOutOfBound. The failure-inducing input is one that doesn't have complete brackets, such as "[](". **The relationship** is that a certain type of bracket doesn't exist and that the symptom would run forever searching for that non-existent bracket, and the bug isn't handling an non-existent bracket
     
@@ -85,6 +87,7 @@ Tests run: 9,  Failures: 8
   - https://github.com/aldrincheung/markdown-parse/blob/main/test-file.md
   - https://github.com/aldrincheung/markdown-parse/blob/main/test-file6.md
 - Symptom
+
 ```bash
 PS C:\Users\aldri\Desktop\classes\CSE_15L\github\markdown-parse> java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore MarkdownParseTest 
 JUnit version 4.13.2
@@ -107,6 +110,7 @@ java.lang.StringIndexOutOfBoundsException: begin 18, end 17, length 27
 FAILURES!!!
 Tests run: 9,  Failures: 2
 ```
+
 - relationship between the bug, the symptom, and the failure-inducing input
   - The bug was that it doesn't update the closing Param index unless it is less than the newline character, but if the line being parsed is the last line, it would not have a newline character and thus would not update the close param character, skipping it. The symptom is that the substring function have an IndexOutOfBoundException. The failure-inducing input is any bracket link to be parsed at the end of the line without a newline that comes after. **The relationship** is that the newline character not being handled are input in harmony.
   
@@ -118,6 +122,7 @@ Tests run: 9,  Failures: 2
 - Tests Files that this fix
   - https://github.com/aldrincheung/markdown-parse/blob/main/error-inducing.md
 - Symptom
+
 ```bash
 PS C:\Users\aldri\Desktop\classes\CSE_15L\github\markdown-parse> javac -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" MarkdownParseTest.java
 PS C:\Users\aldri\Desktop\classes\CSE_15L\github\markdown-parse> java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore MarkdownParseTest 
@@ -138,6 +143,7 @@ java.lang.AssertionError: expected:<[asdf, https://www.google.com/search?q=what+
 FAILURES!!!
 Tests run: 10,  Failures: 1
 ```
+
 - relationship between the bug, the symptom, and the failure-inducing input
   - The bug is that it doesn't check if the link is multi-lined, and because a multi-line link shouldn't exist, it shouldn't be included. The symptom is that multi-line links are included, and the failure-inducing input is a multi-line link. **The relationship** is that multi-lined link isn't expected, and that the input includes one, so to fix it it is to check if the link includes a newline character
   - 
