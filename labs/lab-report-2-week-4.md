@@ -1,4 +1,4 @@
-# Lab Report 1 - (week 2)
+# Lab Report 2 - (week 4)
 - [Lab Report 1 - (week 2)](#lab-report-1---week-2)
   - [Code Change 1](#code-change-1)
   - [Code Change 2](#code-change-2)
