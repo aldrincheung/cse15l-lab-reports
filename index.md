@@ -4,8 +4,11 @@ Hello! If you're a `coder` or just a *stranger*, you've probably want to **grade
 <br/>
 
 Lab 1: [Lab1 Report](./labs/lab-report-1-week-2.md)
+
 Lab 2: [Lab2 Report](./labs/lab-report-2-week-4.md)
+
 Lab 3: [Lab3 Report](./labs/lab-report-3-week-6.md)
+
 
 
 
