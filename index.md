@@ -9,7 +9,7 @@ Lab 2: [Lab2 Report](./labs/lab-report-2-week-4.md)
 
 Lab 3: [Lab3 Report](./labs/lab-report-3-week-6.md)
 
-Lab 4: [Lab3 Report](./labs/lab-report-4-week-8.md)
+Lab 4: [Lab4 Report](./labs/lab-report-4-week-8.md)
 
 
 
