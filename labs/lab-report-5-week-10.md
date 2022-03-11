@@ -32,7 +32,7 @@ Actual:
 
 <br/>
 
-### Test Diff 1 (567.md)
+### Test Diff 2 (567.md)
 Markdown file
 ```markdown
 [foo](not a link)
