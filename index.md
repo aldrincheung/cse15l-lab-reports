@@ -11,6 +11,7 @@ Lab 3: [Lab3 Report](./labs/lab-report-3-week-6.md)
 
 Lab 4: [Lab4 Report](./labs/lab-report-4-week-8.md)
 
+Lab 5: [Lab5 Report](./labs/lab-report-5-week-10.md)
 
 
 <br/>
